@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 // 100.Quyidagi namunani kuzatgan holda funksiya yasang.
 // function name(str) {
 //     let yangi= str.split("*")
@@ -186,50 +185,4 @@
 
 
 // ==================================================================
-
-
-
-
-
-
-
-
-
-
-
-=======
-import { users } from "./date.js";
-
-function addUser(name, lastname, age, job, email, password) {
-  let newUser = {
-    id: users.length===0 ? 1 : users.at(-1).id+1,
-    name,
-    lastname,
-    age,
-    job,
-    email,
-    password,
-  };
-  users.push(newUser);
-
-  return users
-
-}
-
-// console.log(
-  addUser(
-    "john doe",
-    "macgregor",
-    34,
-    "boxer",
-    "johndoe@gmail.com",
-    "1234",
-  ),
-// );
-
-
-console.log(users);
->>>>>>> 5237a081e078b0e2b8cdf07c82785bf86d5f90f2
-
-
 
